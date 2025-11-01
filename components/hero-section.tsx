@@ -1,14 +1,12 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { AnimatedBackground } from "@/components/animated-background"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-black">
-      {/* Animated Background Pattern */}
+    <section className="relative min-h-screen flex items-center justify-center bg-transparent pb-4 sm:pb-6 md:pb-8">
+      {/* Background gradient */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-red-950/20 via-black to-red-950/10" />
-        <AnimatedBackground />
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center relative z-10">
@@ -31,7 +29,7 @@ export function HeroSection() {
 
         {/* CTA Buttons */}
         <div className="flex flex-row gap-2 sm:gap-4 justify-center items-center mb-12 sm:mb-16 px-4">
-          <a href="https://whop.com/checkout/plan_SxGwTG8C2pztL?d2c=true" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none">
+          <a href="https://whop.com/exposed-media/digital-course-d9/" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none">
             <Button size="lg" className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 h-auto">
               Get Instant Access
             </Button>

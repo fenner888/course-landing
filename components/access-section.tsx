@@ -42,7 +42,7 @@ export function AccessSection() {
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-black relative">
+    <section className="py-12 sm:py-16 md:py-20 bg-black/80 relative">
       {/* Background glow */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-600/5 rounded-full blur-3xl" />
@@ -59,16 +59,16 @@ export function AccessSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:gap-8 max-w-6xl mx-auto">
           {accessItems.map((section, index) => (
             <Card key={index} className="border-2 border-primary/20 bg-gradient-to-br from-card to-card/50">
-              <CardContent className="p-6 sm:p-8">
-                <h3 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6 text-primary">{section.title}</h3>
-                <ul className="space-y-3 sm:space-y-4">
+              <CardContent className="p-4 sm:p-6 md:p-8">
+                <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold mb-3 sm:mb-4 md:mb-6 text-primary text-center">{section.title}</h3>
+                <ul className="space-y-2 sm:space-y-3 md:space-y-4">
                   {section.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm sm:text-base text-muted-foreground">{item}</span>
+                    <li key={itemIndex} className="flex items-start gap-2 sm:gap-3">
+                      <Check className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-xs sm:text-sm md:text-base text-muted-foreground">{item}</span>
                     </li>
                   ))}
                 </ul>

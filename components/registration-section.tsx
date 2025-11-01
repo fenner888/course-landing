@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function RegistrationSection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-black relative">
+    <section className="py-12 sm:py-16 md:py-20 bg-black/80 relative">
       {/* Background glow effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/5 rounded-full blur-3xl" />
@@ -34,7 +34,7 @@ export function RegistrationSection() {
 
               {/* Main CTA Button */}
               <a 
-                href="https://whop.com/checkout/plan_SxGwTG8C2pztL?d2c=true" 
+                href="https://whop.com/exposed-media/digital-course-d9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"

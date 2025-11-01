@@ -7,18 +7,19 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Trading & Business Mastery Course',
   description: 'Master crypto & stock trading, security, business building, content creation, and marketing. Comprehensive course with lifetime access to all materials.',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-    userScalable: true,
-    viewportFit: 'cover',
-  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
     title: 'Trading Mastery',
   },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({
