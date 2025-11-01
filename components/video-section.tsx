@@ -9,7 +9,7 @@ export function VideoSection() {
   const [isPlaying, setIsPlaying] = useState(false)
 
   return (
-    <section id="video-section" className="pt-2 sm:pt-4 md:pt-6 pb-12 sm:pb-16 md:pb-20 bg-black/50 relative">
+    <section id="video-section" className="py-12 sm:py-16 md:py-20 bg-black/50 relative">
       {/* Background accent */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-red-950/5 to-transparent pointer-events-none" />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl relative z-10">
