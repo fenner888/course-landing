@@ -31,7 +31,7 @@ export function HeroSection() {
 
         {/* CTA Buttons */}
         <div className="flex flex-row gap-2 sm:gap-4 justify-center items-center mb-12 sm:mb-16 px-4">
-          <a href="https://whop.com/your-product-link/" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none">
+          <a href="https://whop.com/exposed-media/digital-course-d9/" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none">
             <Button size="lg" className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 h-auto">
               Get Instant Access
             </Button>

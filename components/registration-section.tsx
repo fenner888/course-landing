@@ -34,7 +34,7 @@ export function RegistrationSection() {
 
               {/* Main CTA Button */}
               <a 
-                href="https://whop.com/your-product-link/" 
+                href="https://whop.com/exposed-media/digital-course-d9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
