@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function StorySection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-black/80 relative overflow-hidden">
+    <section className="py-12 sm:py-16 md:py-20 bg-black/50 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-red-600/5 rounded-full blur-3xl" />

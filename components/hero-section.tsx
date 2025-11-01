@@ -4,11 +4,6 @@ import { Badge } from "@/components/ui/badge"
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-transparent pb-4 sm:pb-6 md:pb-8">
-      {/* Background gradient */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-red-950/20 via-black to-red-950/10" />
-      </div>
-
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center relative z-10">
         {/* Limited Time Offer Badge */}
         <Badge variant="secondary" className="mb-6 sm:mb-8 text-sm font-medium px-4 py-2 bg-accent text-accent-foreground">

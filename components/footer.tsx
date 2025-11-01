@@ -2,7 +2,7 @@ import { Separator } from "@/components/ui/separator"
 
 export function Footer() {
   return (
-    <footer className="bg-black/80 border-t border-border/50 py-8 sm:py-10 md:py-12 relative">
+    <footer className="bg-black/50 border-t border-border/50 py-8 sm:py-10 md:py-12 relative">
       <div className="absolute inset-0 bg-gradient-to-t from-red-950/5 to-transparent pointer-events-none" />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl relative z-10">
         <div className="text-center space-y-4 sm:space-y-6">

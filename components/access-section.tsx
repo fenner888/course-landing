@@ -42,7 +42,7 @@ export function AccessSection() {
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-black/80 relative">
+    <section className="py-12 sm:py-16 md:py-20 bg-black/50 relative">
       {/* Background glow */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-600/5 rounded-full blur-3xl" />

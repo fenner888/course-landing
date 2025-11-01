@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function RegistrationSection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-black/80 relative">
+    <section className="py-12 sm:py-16 md:py-20 bg-black/50 relative">
       {/* Background glow effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/5 rounded-full blur-3xl" />

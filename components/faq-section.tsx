@@ -43,7 +43,7 @@ export function FAQSection() {
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-black/80 relative">
+    <section className="py-12 sm:py-16 md:py-20 bg-black/50 relative">
       {/* Background accent */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-red-950/5 to-transparent pointer-events-none" />
       
